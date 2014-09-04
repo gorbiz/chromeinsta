@@ -1,0 +1,18 @@
+{
+  "name": "chrome-watcher",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "description": "Reload webpage in chrome as you edit related files",
+  "author": "Karl Svartholm <gorbiz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "~0.8.4"
+  },
+  "bin": {
+    "forever": "./bin/chrome-watcher"
+  },
+  "main": "./lib/chrome-watcher",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
