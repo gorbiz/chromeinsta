@@ -1,17 +1,18 @@
 {
-  "name": "chrome-watcher",
+  "name": "chromeinsta",
   "preferGlobal": "true",
   "version": "0.0.1",
   "description": "Reload webpage in chrome as you edit related files",
   "author": "Karl Svartholm <gorbiz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chokidar": "~0.8.4"
+    "chokidar": "~0.8.4",
+    "optimist": "^0.6.1"
   },
   "bin": {
-    "forever": "./bin/chrome-watcher"
+    "chromeinsta": "./bin/chromeinsta"
   },
-  "main": "./lib/chrome-watcher",
+  "main": "./lib/chromeinsta",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
