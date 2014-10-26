@@ -1,7 +1,7 @@
 {
-  "name": "chromeinsta",
+  "name": "insta",
   "preferGlobal": "true",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reload webpage in chrome as you edit related files",
   "author": "Karl Svartholm <gorbiz@gmail.com>",
   "license": "MIT",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/gorbiz/chromeinsta.git"
+    "url": "http://github.com/gorbiz/insta.git"
   },
   "bin": {
-    "chromeinsta": "./bin/chromeinsta"
+    "insta": "./bin/insta"
   },
-  "main": "./lib/chromeinsta",
+  "main": "./lib/insta",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

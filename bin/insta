@@ -6,7 +6,7 @@ var fs = require('fs');
 
 if (argv.h || argv.help) {
   console.log([
-    'usage: chromeinsta [application-file] [options]',
+    'usage: insta [application-file] [options]',
     '',
     '  application-file defaults to index.html',
     '',
@@ -17,9 +17,9 @@ if (argv.h || argv.help) {
     '  -h --help          Print this list and exit.',
     '',
     'examples:',
-    '  chromeinsta',
-    '  chromeinsta app.html',
-    '  chromeinsta --dir=scripts/js',
+    '  insta',
+    '  insta app.html',
+    '  insta --dir=scripts/js',
     ''
   ].join('\n'));
   process.exit();
@@ -48,4 +48,4 @@ var dir = path.resolve(argv.path || path.dirname(target));
 var ignore = argv.ignore ? new RegExp(argv.ignore) : /node_modules|\.git/;
 
 
-require('../lib/chromeinsta').start(url, dir, ignore);
+require('../lib/insta').start(url, dir, ignore);
