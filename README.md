@@ -3,8 +3,8 @@
 
 # HOW #
 1. Install https://chrome.google.com/webstore/detail/chromi/eeaebnaemaijhbdpnmfbdboenoomadbo (chrome[ium] extension).
-2. `sudo npm install -g chromix`
-3. `sudo npm install -g git+https://git@github.com/gorbiz/insta.git`
+2. `npm install -g chromix`
+3. `npm install -g git+https://git@github.com/gorbiz/insta.git`
 4. `echo -e '\nscreen -S chromix-server -d -m chromix-server' >> ~/.bashrc`
 
 [4] is **OPTIONAL** letting it boot and run in the background until we have a better solution.
